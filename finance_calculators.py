@@ -31,7 +31,7 @@ else:
 #   A = total amount   p = money deposited   r = annual interest rate   t = number of years
 
 
-if user_choice == "investment":                                                                 #Nested If statement used to choose between investment and bond repayment calculator
+if user_choice == "investment":                                          #Nested If statement used to choose between investment and bond repayment calculator
 
     P = float(input("How much money will you deposit in rands? Enter numbers only "))     
     interest_rate = float(input("Please enter the interest rate. Enter numbers only "))
